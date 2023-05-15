@@ -39,7 +39,7 @@ router.post('/', (req, res) => {
   addNewPostquery.addNewPost(post)
   .then((data) => {
     console.log('add new post', data);
-    res.redirect('/newpost');
+    res.redirect('/');
   })
 });
 
